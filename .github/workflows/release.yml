@@ -4,11 +4,12 @@ on:
   push:
     branches:
       - 'main'
+      - 'maurits-empty-username-password'
     tags:
       - 'v*.*.*'
 
 env:
-  IMAGE_NAME: ghcr.io/kitconcept/docker-stack-deploy
+  IMAGE_NAME: ghcr.io/mauritsvanrees/docker-stack-deploy
 
 jobs:
 
